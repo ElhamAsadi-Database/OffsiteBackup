@@ -2,11 +2,11 @@
 $localBackupRoot = "F:\BackUp\LogBackup"
 
 # Set the network path
-$networkPath = "\\Veeam-backup\ftp2\BSSDB\ATBSSDB\LogBackup"
+$networkPath = "\\ftp2\BSSDB\ATBSSDB\LogBackup"
 
 # Set the username and password
-$username = "bss"
-$password = "@1n>9@2^44Sg"
+$username = ""
+$password = ""
 
 # Create a PSCredential object
 $credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $username, (ConvertTo-SecureString -String $password -AsPlainText -Force)
