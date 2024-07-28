@@ -2,7 +2,7 @@
 $localBackupRoot = "F:\BackUp\FullBackup"
 
 # Set the network path
- $networkPath = "\\ftp2\BSSDB\atbssdb\fullbackup"
+ $networkPath = "\\ftp2\fullbackup"
 
 # Set the username and password
 $username = ""
