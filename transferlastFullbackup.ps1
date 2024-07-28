@@ -2,11 +2,11 @@
 $localBackupRoot = "F:\BackUp\FullBackup"
 
 # Set the network path
- $networkPath = "\\Veeam-backup\ftp2\BSSDB\atbssdb\fullbackup"
+ $networkPath = "\\ftp2\BSSDB\atbssdb\fullbackup"
 
 # Set the username and password
-$username = "bss"
-$password = "@1n>9@2^44Sg"
+$username = ""
+$password = ""
 
 # Create a PSCredential object
 $credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $username, (ConvertTo-SecureString -String $password -AsPlainText -Force)
