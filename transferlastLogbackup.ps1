@@ -2,7 +2,7 @@
 $localBackupRoot = "F:\BackUp\LogBackup"
 
 # Set the network path
-$networkPath = "\\ftp2\BSSDB\ATBSSDB\LogBackup"
+$networkPath = "\\ftp2\LogBackup"
 
 # Set the username and password
 $username = ""
