@@ -2,7 +2,7 @@
 $localBackupRoot = "F:\BackUp\DifferentialBackup"
 
 # Set the network path
-$networkPath = "\\Veeam-backup\ftp2\BSSDB\ATBSSDB\DifferentialBackup"
+$networkPath = "\\ftp2\DifferentialBackup"
 
 # Set the username and password
 $username = ""
