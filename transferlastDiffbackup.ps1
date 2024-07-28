@@ -12,7 +12,7 @@ $password = ""
 $credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $username, (ConvertTo-SecureString -String $password -AsPlainText -Force)
 
 # Add the IP address to TrustedHosts
-Set-Item WSMan:\localhost\Client\TrustedHosts -Value "172.17.100.3" -Force
+Set-Item WSMan:\localhost\Client\TrustedHosts -Value "172.x.x.x" -Force
 
 # Function to delete old Differential Backup files older than 1 week
 function Remove-OldDifferentialBackups {
